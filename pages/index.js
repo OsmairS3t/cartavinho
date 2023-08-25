@@ -6,14 +6,7 @@ function Home() {
         <div className={styles.container}>
             <Image
                 className={styles.imgsize}
-                src="/assets/pagina1.png"
-                width={707}
-                height={1000}
-                alt="Picture of the author"
-            />
-            <Image
-                className={styles.imgsize}
-                src="/assets/pagina2.png"
+                src="/assets/carta.png"
                 width={707}
                 height={1000}
                 alt="Picture of the author"
