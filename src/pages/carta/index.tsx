@@ -5,7 +5,18 @@ import Link from 'next/link'
 export default function Carta() {
 
     return (
-        <div className='flex flex-column w-full h-full bg-[url("/assets/bg_carta.jpg")] bg-fixed bg-cover lg:bg-contain bg-no-repeat'>
+        <div 
+            className='flex 
+            flex-column 
+            w-full 
+            h-full 
+            bg-[url("/assets/bg_carta.jpg")] 
+            bg-fixed 
+            bg-cover 
+            md:bg-contain 
+            lg:bg-contain 
+            bg-no-repeat'
+        >
             <div>
                 <div className='md:ml-96 h-full p-8 bg-black bg-opacity-75 md:bg-opacity-100'>
                     <h1 className='font-normal text-3xl text-center mb-4 text-white'>Carta de Vinhos</h1>
