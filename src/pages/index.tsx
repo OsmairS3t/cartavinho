@@ -4,7 +4,7 @@ import Carta from './carta'
 
 function Home() {
     return(
-        <main>
+        <main className='bg-black'>
             <Carta />
         </main>
     )

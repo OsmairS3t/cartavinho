@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { vinhos } from '../../utils/database'
-import Link from 'next/link'
 
 export default function Carta() {
 
@@ -18,7 +17,7 @@ export default function Carta() {
             bg-no-repeat'
         >
             <div>
-                <div className='md:ml-96 h-full p-8 bg-black bg-opacity-75 md:bg-opacity-100'>
+                <div className='md:ml-96 lg:ml-96 h-full p-8 bg-black bg-opacity-75 md:bg-opacity-100'>
                     <h1 className='font-normal text-3xl text-center mb-4 text-white'>Carta de Vinhos</h1>
                     { vinhos.map(vin => (
                         <div key={vin.id}>
